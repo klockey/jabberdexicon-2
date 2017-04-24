@@ -8,6 +8,34 @@ html {
 }
 
 body {
-  margin: 0;
+//  margin: 1em;
   font: $base-text-size / 1 $base-font-family;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+ }
+}
+
+.App{
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
